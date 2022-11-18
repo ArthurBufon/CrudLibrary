@@ -1,0 +1,27 @@
+=>CONCEPTS USED
+
+forms
+    =>An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+$_POST
+    =>PHP $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables.
+
+fetch_array();
+    =>Fetches one row of data from the result set and returns it as an array.
+
+fetch_assoc();
+    =>Fetch a result row as an associative array
+    =>Returns an associative array of strings that corresponds to the fetched row, or false if there are no more rows. 
+
+isset()
+    =>The isset() function checks whether a variable is set, which means that it has to be declared and is not NULL. This function returns true if the variable exists and is not NULL, otherwise it returns false.
+
+$mysqli = new mysqli('localhost', 'root', '', 'library')
+    =>opens a new connection to the MySQL server.
+    => parameters are SERVER NAME, USERNAME, PASSWORD, DATABASE NAME
+
+ $mysqli->query()
+    =>Performs a query on the database
+
+header()
+    =>The header in PHP is a PHP built-in function for sending a raw HTTP header. The HTTP functions are those that manipulate information sent by the webserver to the client or browser before it sends any further output. The header() function in PHP sends a raw HTTP header to a client or browser.

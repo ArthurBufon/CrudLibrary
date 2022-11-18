@@ -1,0 +1,17 @@
+Pagina principal(index)✔️
+
+Clica em um botao para selecionar a opcao desejada
+
+ -> Adicionar livro✔️
+   ->adiciona um novo livro e volta para a pagina principal(index)
+
+ -> Editar livro✔️
+   ->edita um livro e volta para a pagina principal(index)
+   ->entender fetch_assoc()
+
+ -> Deletar livro✔️
+    ->deleta um livro e volta para a pagina principal(index)
+
+ -> Listar livros✔️
+    ->lista todos os livros.
+    ->botao para voltar ao menu
